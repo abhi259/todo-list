@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    margin: auto;
+    vertical-align:middle;
+    }
+
+.bg-container{
+    background-image: url('https://ipfs.io/ipfs/QmR81RuxBWBRa4ECC2VCuxQab3Fo3DVVRoWR8Jje3oq5Dz');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.heading-todo{
+    text-align: center;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.heading-create-task{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.heading-my-task{
+    font-family: roboto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.todo-user-input{
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    opacity: 100%;
+}
+
+.sub-text{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 50;
+    color: #ffffff;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    padding: 15px;
+    color: white;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+.label-container {
+    background-color: #e6f6ff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+    color: white;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: grey;
+}
+
+.todo-item-container {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.container-box {
+    background-color: rgb(36, 36, 36);
+    padding: 50px;
+    opacity: 95%;
+    border-radius: 10px;
+}
+.text-input {
+    color: white;
+}
